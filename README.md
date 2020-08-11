@@ -1,2 +1,4 @@
 # Solar_Wind
 First PhD Project - The Statistics of Solar Wind Electrons Using Machine Learning
+
+Cluster2_Work combines supervised and unsupervised machine learning to separate halo and strahl pitch angle and energy distributions. The Fitting and Maxwellian notebooks use clustering analysis to calculate the breakpoint energy between the suprathermal and core populations and then fit Maxwellian distributions to the core to extract its properties. The POS_MAG, Position, and Vector workbooks collate a list of time when the spacecraft is outside the Earth's bow shock and not magnetically connected to it. The Data_Analysis workbook is used for analysing the breakpoint energy correlations by plotting violin distributions and performing statistical tests. Solar_wind_distributions simulates solar wind electron velocity distribution functions. Strahl_Fit fits a Gaussian to the strahl population to predict the amount of leakage of strahl electrons in the core population.
